@@ -1,0 +1,42 @@
+   Parte 1: creación de clientes
+
+            Client persona1 = new Client();
+            persona1.setName("hernan");
+            persona1.setLastname("sandroni");
+            persona1.setDocnumber(42283987);
+            this.clienteRepository.save(persona1);
+
+            Client persona2 = new Client();
+            persona2.setName("melina");
+            persona2.setLastname("negrete");
+            persona2.setDocnumber(44375896);
+            this.clienteRepository.save(persona2);
+
+            Client persona3 = new Client();
+            persona3.setName("juan");
+            persona3.setLastname("ferro");
+            persona3.setDocnumber(40137654);
+            this.clienteRepository.save(persona3);
+
+   Parte 2: creación de productos
+
+           Product zapatilla = new Product();
+           zapatilla.setCode("abcdefg");
+           zapatilla.setDescription("edicion limitada");
+           zapatilla.setPrice(20000);
+           zapatilla.setStock(100);
+           this.productoRepository.save(zapatilla);
+
+           Product auris = new Product();
+           auris.setCode("dbz-generation");
+           auris.setDescription("larga duracion");
+           auris.setPrice(7500);
+           auris.setStock(300);
+           this.productoRepository.save(auris);
+
+           Product camiseta = new Product();
+           camiseta.setCode("x-e-n-e-i-z-e");
+           camiseta.setDescription("original nike");
+           camiseta.setPrice(32000);
+           camiseta.setStock(200);
+           this.productoRepository.save(camiseta);
