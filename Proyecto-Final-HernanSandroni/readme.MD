@@ -1,7 +1,7 @@
 # Proyecto ABM en java - Coderhouse
 #### Programa de alta, baja y modificacion de Clientes, Productos y Comprobantes.
 
-> **Para ejecutar el proyecto correr la aplicación JavaApplication ubicada en src/main/java - Proyecto-Final-HernanSandroni**
+> **Para ejecutar el proyecto correr la aplicación JavaApplication ubicada en src/main/java - ProyectoFinalHernanSandroni**
 
 ### Dependencias utilizadas:
 * #### SpringBoot Data JPA : 
